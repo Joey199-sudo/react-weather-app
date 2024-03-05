@@ -40,10 +40,7 @@ export default function Weather(props){
         axios.get(apiUrl).then(handleResponse);
     }
 
-function handleUnitChange(newUnit) {
-        setUnit(newUnit);
-        search();
-    }
+
        
     if(weatherData.ready){
     return (
