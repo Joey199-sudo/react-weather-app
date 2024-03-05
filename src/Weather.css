@@ -32,6 +32,7 @@
 .Weather .float-left{
     display: flex;
     margin-top: 10px;
+
 }
 .Weather .temperature{
     font-size: 64px;
@@ -40,12 +41,13 @@
     margin-left: 69px;
     display: flex;
     margin-top: -78px;
+    
 
 }
 .Weather .unit{
     font-size: 20px;
    margin-top: -49px;
-   margin-left: 105px;
+   margin-left: 145px;
    display: flex;
 
    
